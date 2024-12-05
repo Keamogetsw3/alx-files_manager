@@ -93,11 +93,17 @@ By the end of the project, you should be able to:
 ## File Structure
 .
 ├── controllers/
+
 │   ├── fileController.js
+
 │   └── authController.js
+
 ├── models/
+
 │   ├── file.js
+
 │   └── user.js
+
 ├── routes/
 │   ├── fileRoutes.js
 │   └── authRoutes.js
