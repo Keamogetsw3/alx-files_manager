@@ -90,32 +90,3 @@ By the end of the project, you should be able to:
    npm install
 
 
-## File Structure
-.
-├── controllers/
-
-│   ├── fileController.js
-
-│   └── authController.js
-
-├── models/
-
-│   ├── file.js
-
-│   └── user.js
-
-├── routes/
-│   ├── fileRoutes.js
-│   └── authRoutes.js
-├── services/
-│   ├── fileService.js
-│   └── authService.js
-├── utils/
-│   └── helperFunctions.js
-├── workers/
-│   └── imageWorker.js
-├── .eslintrc.js
-├── .gitignore
-├── package.json
-├── README.md
-└── server.js
