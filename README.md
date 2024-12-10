@@ -6,13 +6,9 @@ This project is a back-end application designed to manage file uploads, permissi
 
 ### Project Details:
 
-- **Team Members:** Keamogetswe Maswanganyi
-- **Weight:** 1
+- **Team Members:** Keamogetswe and Makoena
 - **Start Date:** December 5, 2024, 6:00 AM
 - **End Date:** December 12, 2024, 6:00 AM
-- **Checker Release:** December 7, 2024, 12:00 AM
-- **Manual QA Review:** Must be requested when done
-- **Auto Review:** Happens at the project deadline
 
 ---
 
@@ -90,32 +86,3 @@ By the end of the project, you should be able to:
    npm install
 
 
-## File Structure
-.
-├── controllers/
-
-│   ├── fileController.js
-
-│   └── authController.js
-
-├── models/
-
-│   ├── file.js
-
-│   └── user.js
-
-├── routes/
-│   ├── fileRoutes.js
-│   └── authRoutes.js
-├── services/
-│   ├── fileService.js
-│   └── authService.js
-├── utils/
-│   └── helperFunctions.js
-├── workers/
-│   └── imageWorker.js
-├── .eslintrc.js
-├── .gitignore
-├── package.json
-├── README.md
-└── server.js
