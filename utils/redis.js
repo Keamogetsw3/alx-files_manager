@@ -24,6 +24,7 @@ class RedisClient {
     this.client.on('connect', () => {
       this.isClientConnected = true;
     });
+  }
 
   /**
   * checks if a client is currently connected
@@ -34,3 +35,5 @@ class RedisClient {
  }
 
 }
+
+
