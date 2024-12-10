@@ -24,4 +24,13 @@ class RedisClient {
     this.client.on('connect', () => {
       this.isClientConnected = true;
     });
+
+  /**
+  * checks if a client is currently connected
+  * @returns: (boolen) 'true' if the client is connected; otherwise, 'false'.
+  */
+ isAlive() {
+    return this.isClientConnected;
+ }
+
 }
